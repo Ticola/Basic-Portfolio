@@ -76,7 +76,7 @@ header .container {
     color: blanchedalmond;
     text-decoration: none;
     -webkit-transition: color .4s;
-    transition: color: .4s;
+    transition: color .4s;
     }
 
 .nav ul li a:hover {
@@ -123,3 +123,84 @@ img.headshot {
     height: 200px;
     }
 
+.portfolio-item {
+    display: inline-block;
+    position: relative;
+    width: 270px;
+    height: 200px;
+    transition: transform .3s ease-out;
+    }
+    
+.portfolio-item:nth-child(even) {
+    margin-left: 25px;
+    }
+    
+.portfolio-item:hover {
+    transform: rotate(-10deg) scale(1.1, 1.1);
+    }
+    
+.item-name {
+    position: relative;
+    top: -50px;
+    text-align: center;
+    background-color: #c7c4c452;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 10px;
+    z-index: 1000;
+    }
+
+.contact {
+    width: 540px;
+    }
+    
+.contact label {
+    display: block;
+    padding-bottom: 8px;
+    }
+    
+.contact input, .contact textarea {
+    width: 100%;
+    border: 3px solid #db1e1e;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 12px;
+    }
+    
+.contact input::-webkit-input-placeholder, .contact textarea::-webkit-input-placeholder {
+    color: #cccccc;
+    }
+    
+.contact input::-moz-placeholder, .contact textarea::-moz-placeholder {
+    color: #cccccc;
+    }
+    
+.contact input::-ms-placeholder, .contact textarea::-ms-placeholder {
+    color: #cccccc;
+    }
+    
+.contact input::placeholder, .contact textarea::placeholder {
+    color: #cccccc;
+    }
+    
+.contact input[type="submit"] {
+    width: auto;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1em;
+    }
+    
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 45px;
+    text-align: center;
+    font-size: 12px;
+    color: #000000;
+    background-color: #d672729a;
+    border-top: 3px solid #99bff786;
+    }
