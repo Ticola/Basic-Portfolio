@@ -167,29 +167,13 @@ img.headshot {
     font-size: 12px;
     }
     
-.contact input::-webkit-input-placeholder, .contact textarea::-webkit-input-placeholder {
-    color: #cccccc;
-    }
-    
-.contact input::-moz-placeholder, .contact textarea::-moz-placeholder {
-    color: #cccccc;
-    }
-    
-.contact input::-ms-placeholder, .contact textarea::-ms-placeholder {
-    color: #cccccc;
-    }
-    
-.contact input::placeholder, .contact textarea::placeholder {
-    color: #cccccc;
-    }
-    
 .contact input[type="submit"] {
     width: auto;
     background-color: #4aaaa5;
     color: #ffffff;
     border: none;
-    padding: 1em 2em;
-    font-size: 1em;
+    padding: 15px 20px;
+    font-size: 15px;
     }
     
 footer {
